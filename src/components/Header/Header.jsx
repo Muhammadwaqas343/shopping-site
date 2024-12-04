@@ -1,20 +1,22 @@
-import React from "react"
+import React from "react";
+import "./Header.css"
+import logo from "../../assets/logo.png"
+
 const Header = () => {
 
     return (
-        <div>
-            <div>
-                <div>
-                    <h4>Home</h4>
-                    <h4>Men's</h4>
-                    <h4>Women's</h4>
-                    <h4>Kid's</h4>
-                    <h4>Pages</h4>
-                    <h4>Features</h4>
-                    <h4>Explore</h4>
-                </div>
-            </div>
-        </div>
+        <header className="header">
+            < a href=""><img src={logo} /></a>
+            <nav className="navbar">
+            < a href="/">Home</a>
+            < a href="/">Men's</a>
+            < a href="/">Women's</a>
+            < a href="/">Kid's</a>
+            < a href="/">Pages</a>
+            < a href="/">Features</a>
+            < a href="/">Explore</a>
+            </nav>
+        </header>
     )
 }
 export default Header;
