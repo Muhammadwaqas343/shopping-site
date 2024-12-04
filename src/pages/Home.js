@@ -1,14 +1,11 @@
-import React from 'react'
-import { Hero } from '../features/Home/Hero'
-import OurProjects from '../features/Home/OurProjects'
+import React from "react";
+import Hero from "../features/Home/Hero";
+const Home = () =>{
 
-const Home = () => {
-  return (
-   <>
-   <Hero/>
-   <OurProjects/>
-   </>
+  return(
+    <div>
+      <Hero/>
+    </div>
   )
 }
-
-export default Home
+export default Home;
