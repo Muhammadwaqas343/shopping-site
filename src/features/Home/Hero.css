@@ -1,0 +1,24 @@
+.main-container{
+    height: 100vh;
+    width: 100%;
+    background-color: #b9d176;
+    display: flex;
+}
+
+.left{
+    height: 50%;
+    width: 50%;
+    background-color: #93cc79;
+}
+
+.right{
+    height: 40px;
+    width: 50%;
+    background-color: #383b37;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.right .item{
+   
+    background-color: #d7dfd3;
+}
